@@ -10,6 +10,7 @@ pandas = "*"
 
 [dev-packages]
 icecream = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.13"
