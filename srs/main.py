@@ -121,6 +121,6 @@ class TinkoffStockBalanser:
 
 if __name__ == '__main__':
     token = os.getenv('TINKOFF_API_TOKEN')
-    account_id = '2224375246'
+    account_id = os.getenv('ACCOUNT_ID')
     ra = TinkoffStockBalanser(token,account_id).get_rebalance_actions()
     ic(ra)
